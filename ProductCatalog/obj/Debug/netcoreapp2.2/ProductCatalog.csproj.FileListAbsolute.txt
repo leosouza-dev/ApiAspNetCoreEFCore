@@ -1,0 +1,14 @@
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\bin\Debug\netcoreapp2.2\ProductCatalog.deps.json
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\bin\Debug\netcoreapp2.2\ProductCatalog.runtimeconfig.json
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\bin\Debug\netcoreapp2.2\ProductCatalog.runtimeconfig.dev.json
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\bin\Debug\netcoreapp2.2\ProductCatalog.dll
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\bin\Debug\netcoreapp2.2\ProductCatalog.pdb
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.csprojAssemblyReference.cache
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.csproj.CoreCompileInputs.cache
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.RazorAssemblyInfo.cache
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.RazorAssemblyInfo.cs
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.AssemblyInfoInputs.cache
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.AssemblyInfo.cs
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.RazorTargetAssemblyInfo.cache
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.dll
+C:\dev\Balta\1976 - Criando APIs com ASP.NET Core e EF Core\ProductCatalog\obj\Debug\netcoreapp2.2\ProductCatalog.pdb
