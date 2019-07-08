@@ -1,12 +1,12 @@
 ## API do Curso do Balta.IO - 1976
 
-#Criando Sua Primeira API (Com ASP.NET Core e EF Core)
+# Criando Sua Primeira API (Com ASP.NET Core e EF Core)
 
-##A quem se aplica?
+## A quem se aplica?
 - Pessoas iniciantes com ASP.NET Core, com cenário mais simples, ou migrando de outras inguagens para o c# e pra o .NET.
 - Vamos construir uma APi pequena, mas com qualidade
 
-##Pré-Requisito
+## Pré-Requisito
 - Linguagem de Programação
 - Conhecer algum Sistema Operacional
 - breve contato de aplicação (não obrigatório)
@@ -92,13 +92,13 @@ Criando o Projeto
 - Temos que adicionar nosso projeto vazio "ProductCatalog" na solution - "dotnet new sln add ProductCatalog.csproj".
 - Balta exclui a pasta wwwroot e remove a referencia <itemgroup> do arquivo csproj;
 
-##Modelagem de Dados - Entidades
+## Modelagem de Dados - Entidades
 - Vamos ter duas# entidades - Produto e categoria;
 - Cria a pasta Models (basicamente, os models reprensentam o que temos no banco de dados).
 - Dentro de Models, criamos o Category.cs. Dentro de Category, inicialmente, teremos três propriedades - Id (int), Title (string) e Products (IEnumerable<Product>). Dara erro de compilação porque não temos ainda a classe Product.
 - Ainda dentro de Models vamos criar a classe Product.cs. Dentro de product vamos ter algumas propriedades. Id (int), Title (string), Description (string), Price (decimal), Quantity (int), Image (string), CreateDate (DateTime), LastaUpdateDate (DateTime), CategoryId (int) e Category (Category) (esses dois ultimos são a referencia para categoria).
 
-##Introdução Ao Entity Framework Core (16:07  - 16:30)
+## Introdução Ao Entity Framework Core (16:07  - 16:30)
 - Solução ORM da Microsoft;
 - Faz o dê-para das classes para tabelas;
 - Facilita a vida do desenvolvedor
@@ -114,7 +114,7 @@ Agora vamos trabalhar com contexto de dados - Representação do Banco de Dados 
 - Temos duas propriedades do tipo DbSet, para cada entidade - Products e catagoris;
 - Sobrescrevemos o metodo OnConfiguring, usando o optionsBuilder.UseSqlServer passando a ConnectionString do banco de dados. (protected override void OnConfiguring...)
 
-##Mapeamento Objeto Relacional (16: 50 - 18:00 )
+## Mapeamento Objeto Relacional (16: 50 - 18:00 )
 - SQL server trabalha de forma diferente do c#;
 - Classes vs Tabelas
 - Foco do código (code first)
@@ -185,7 +185,7 @@ Gerando migração para atualizar nosso Banco.
 - dotnet ef database update
 
 
-##Criando a API (18:34 )
+## Criando a API (18:34 )
 - Permite a Comuniação entre aplicações;
 - Concentra regra de negócio do seu software;
 - Necessário para comunicação com dispositivos móveis (app moveis não se conectam aos bancos de dados);
@@ -207,7 +207,7 @@ Middleware
 - OBS. Nossa api já esta pronta, Balta explicou alguns conceitos apenas.
 
 
-##Adicioando MVC (19:00 - 19:10)
+## Adicioando MVC (19:00 - 19:10)
 - Padrão para organização do projeto - Padrão Arquitetural.
 - Model View Controller;
 - Nossas models já existem, vamos criar o controller. Não existira a View.
@@ -222,7 +222,7 @@ Dentro da classe Startup:
 - No metodo Configure:
 	- app.UseMvc(); (Configura o  MVC)
 
-##Rotas e CRUD (15:37)
+## Rotas e CRUD (15:37)
 - Rotas são importantes
 - Podemos Utilizar as Rotas e Verbos
 - Podemos receber parametros pela url e corpo da requisição
@@ -275,4 +275,4 @@ Execução de Teste
 
 - No Put, ele passa o Id e Title (alterando o titulo para "novos Jogos Digitais"
 
-##ViewModels ()
+## ViewModels ()
